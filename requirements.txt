@@ -9,3 +9,6 @@ boto3
 pymongo
 fastapi
 uvicorn
+datasets
+ragas
+langchain_community

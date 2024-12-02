@@ -13,6 +13,14 @@ The system architecture is designed to collect, process, and retrieve data for e
 - **Data Processing**: Performed ETL, chunking data into meaningful sections, and transforming it into embeddings for semantic search.  
 - **RAG Pipeline**: Uses embeddings and GPT-4 to generate relevant, contextual responses.  
 
+## Relevancy and Faithfulness Evaluation with RAGas
+This project uses RAGas for evaluating the relevancy and faithfulness of AI-generated responses.
+[RAGas GitHub Repository](https://github.com/explodinggradients/ragas)
+
+## Authority Signals: Brand Mentions & Backlinks Scoring
+The system also evaluates authority signals by analyzing brand mentions and backlinks. It assigns scores based on the presence of trusted domains like Ally, Chime, Capital One, SoFi, and Varo, enhancing the measurement of search visibility.
+
+
 ## Clone the Repository
 ```bash
 git clone https://github.com/NourhanNabil/EvaluatingAISearchVisibilityforChime.git
