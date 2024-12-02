@@ -1,0 +1,11 @@
+selenium
+webdriver-manager 
+pandas
+beautifulsoup4 
+langchain
+openai==0.28
+qdrant-client
+boto3
+pymongo
+fastapi
+uvicorn
